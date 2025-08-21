@@ -1,0 +1,10 @@
+name: esa_presentation_app
+title: ESA Presentation App
+username: sammyolsen
+account: sammyolsen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15202651
+bundleId: 10769405
+url: https://sammyolsen.shinyapps.io/esa_presentation_app/
+version: 1

@@ -1,0 +1,94 @@
+/* Custom styling for ESA presentation */
+body {
+  background-color: #ffe6f3; /* Light pastel pink */
+  color: #333;
+}
+
+#header {
+  background-color: #ff99cc; /* Light magenta */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.png-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.png-wrapper img {
+  max-height: 650px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Smaller size for humidity and trend PNGs */
+.png-wrapper.humidity img,
+.png-wrapper.trend img {
+  max-height: 400px;
+}
+
+#header h1 {
+  color: black;
+  font-size: 36px;
+  margin: 0;
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: right;
+  flex: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#header-logo {
+  max-height: 50px;
+  max-width: 150px;
+  margin-left: 20px;
+}
+
+.shiny-main-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.shiny-input-container {
+  margin-bottom: 15px;
+}
+
+.shiny-options-group {
+  margin-bottom: 15px;
+}
+
+.plotOutput {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Make tabs more prominent */
+.nav-tabs {
+  background-color: #ff99cc;
+  margin-bottom: 20px;
+}
+
+.nav-tabs > li > a {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-tabs > li.active > a {
+  background-color: #ffe6f3;
+  color: #333;
+}

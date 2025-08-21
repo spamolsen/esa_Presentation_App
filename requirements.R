@@ -1,0 +1,8 @@
+install.packages('cli', version = '3.6.4', repos = 'https://cran.rstudio.com')
+install.packages('clock', version = '0.6.4', repos = 'https://cran.rstudio.com')
+install.packages('shiny', version = '1.7.5', repos = 'https://cran.rstudio.com')
+install.packages('shinythemes', version = '1.2.0', repos = 'https://cran.rstudio.com')
+install.packages('plotly', version = '4.10.2', repos = 'https://cran.rstudio.com')
+install.packages('mgcv', version = '1.8-42', repos = 'https://cran.rstudio.com')
+install.packages('ggplot2', version = '3.4.4', repos = 'https://cran.rstudio.com')
+install.packages('extrafont', version = '0.19', repos = 'https://cran.rstudio.com')
