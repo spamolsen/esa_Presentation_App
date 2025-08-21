@@ -27,11 +27,3 @@ To deploy this application using Posit Connect:
    - data/ directory containing model RData files
 
 4. Deploy through Posit Connect's web interface or command line tools
-
-## Data Requirements
-
-The application requires two RData files containing the GAM models:
-- pan_trap_model.RData
-- sweep_net_model.RData
-
-These should be placed in a 'data' directory within the application folder.
